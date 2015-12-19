@@ -9,7 +9,7 @@ To use the API, just do the standard
 and then
 
     var streakapi = require('streakapi');
-    var streak = new streakapi.Streak("api key here");
+    var streak = new streakapi.Streak("7d80ad41c4cf4cf08ce3e48c8f87ed75");
     streak.Me.get().then(function(me) {
       console.log('email', me.email);
     });
